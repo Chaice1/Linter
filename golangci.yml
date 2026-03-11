@@ -1,0 +1,10 @@
+linters:
+  disable-all: true  
+  enable:
+    - loglinter
+
+linters-settings:
+  custom:
+    loglinter:
+      path: internal/analyze 
+      description: " linter for logging standards: lowercase, english, no emojis, no secrets"
