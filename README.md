@@ -25,5 +25,5 @@ go test -v ./internal/analyze/...
 ```
 - Запуск:
 ```bash
-.\loglinter.exe ./...
+.\loglinter.exe ./internal/analyze/testdata/src/test
  ```
