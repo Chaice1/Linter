@@ -17,7 +17,7 @@ cd Linter
 ```
 - Сборка:
 ```bash
-go build -o loglinter.exe ./cmd/loglinter/main.go
+go build -o loglinter.exe ./cmd/linter/main.go
 ```
 - Тесты:
 ```bash
