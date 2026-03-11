@@ -10,6 +10,11 @@
 - Security: запрещено логировать пароли и токены.
 
 ## Команды
+- Клонирование репозитория:
+```bash
+git clone https://github.com/Chaice1/Linter.git
+cd Linter
+```
 - Сборка:
 ```bash
 go build -o loglinter.exe ./cmd/loglinter/main.go
